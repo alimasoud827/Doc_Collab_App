@@ -1,8 +1,11 @@
 import './App.css'
+import Body from './body/body'
 
 function App() {
   return (
-    <div className="App">App</div>
+    <>
+      <Body />
+    </>
   )
 }
 
