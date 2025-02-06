@@ -4,13 +4,7 @@ import Toolbar from '../toolbar/toolbar'
 const Body = () => {
   return (
     <div class="body">
-        <Toolbar typePage={
-            <>
-                <div class="editor-container" contenteditable="true" plac>
-                    <p>Write something here...</p>
-                </div>
-            </>
-        }  />
+        <Toolbar />
         <div class="editor-container" contenteditable="true" plac>
             <p>Write something here...</p>
         </div>

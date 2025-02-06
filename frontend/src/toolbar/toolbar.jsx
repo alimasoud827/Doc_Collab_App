@@ -1,6 +1,6 @@
 import React from 'react'
 
-const toolbar = (typePage) => {
+const toolbar = () => {
   const format = (command) => {
     if (command === 'bold') {
       document.execCommand('bold');
@@ -11,7 +11,7 @@ const toolbar = (typePage) => {
     }
   }
   const addPage = () => {
-    document.body.appendChild(typePage);
+    // document.body.appendChild(typePage);
   }
   return (
     <div class="toolbar">
